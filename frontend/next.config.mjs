@@ -4,8 +4,8 @@ const isGithubPages = process.env.GITHUB_PAGES === "true";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
-  basePath: isGithubPages ? "/AgroShift_NASA" : "",
-  assetPrefix: isGithubPages ? "/AgroShift_NASA/" : undefined,
+  basePath: isGithubPages ? "/AgroShift_NASA-" : "",
+  assetPrefix: isGithubPages ? "/AgroShift_NASA-/" : undefined,
   trailingSlash: true,
   images: {
     unoptimized: true,
